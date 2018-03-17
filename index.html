@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+</head>
+<body>
+
+<video width="602px" height="345px" controls="controls">
+	<source src="http://www.w3school.com.cn/i/movie.ogg" type="video/ogg"></source>
+	<source src="http://www.w3school.com.cn/i/movie.mp4" type="video/mp4"></source>
+		<!-- your browser does not support the video tag  -->
+		'<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="602px" height="345px" style="" id="FLVPlayer1" align="middle" data="http://www.w3school.com.cn/i/movie.mp4">
+			<param name="movie" value="http://www.w3school.com.cn/i/movie.swf" />
+
+			<param name="quality" value="high" >
+			<param name="wmode" value="opaque" >
+			<param name="scale" value="noscale" >
+			<param name="salign" value="lt" >
+
+			<param name="bgcolor" value="#333333">
+			<param name="allowscriptaccess" value="always">
+			<param name="allowfullscreen" value="true">
+			<param name="allowFullScreenInteractive" value="true">
+
+<param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=http://www.w3school.com.cn/i/movie.mp4&amp;streamName=http://www.w3school.com.cn/i/movie.ogg&amp;autoPlay=false&amp;autoRewind=false" />
+			<!-- <param name="swfversion" value="8,0,0,0" /> -->
+			<!-- 此 param 标签提示使用    Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->
+			<!-- <param name="expressinstall" value="http://www.w3school.com.cn/i/movie.swf" /> -->
+		</object>
+</video
+
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="550" height="400" id="myFlashMovie" align="middle">
+    <param name="movie" value="myFlashMovie.swf" />
+    <param name=FlashVars value="myVariable=Hello%20World&mySecondVariable=Goodbye" />
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="myFlashMovie.swf" width="550" height="400">
+        <param name="movie" value="myFlashMovie.swf" />
+        <param name=FlashVars value="myVariable=Hello%20World&mySecondVariable=Goodbye" />
+    <!--<![endif]-->
+        <a href="http://www.adobe.com/go/getflash">
+            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+        </a>
+    <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+</object>
+
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="550" height="400" id="FlashVars" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="movie" value="http://www.w3school.com.cn/i/movie.swf" />
+	<param name="FlashVars" value="foo=谭石南&program=flash&language=简体中文-中国&streamName=http://www.w3school.com.cn/i/movie.mp4" />
+	<param name="quality" value="high" />
+	<param name="bgcolor" value="#ffffff" />
+	<embed src="FlashVars.swf"
+		quality="high"
+		bgcolor="#ffffff"
+		width="550"
+		height="400"
+		name="FlashVars"
+		align="middle"
+		allowScriptAccess="sameDomain"
+		FlashVars="foo=谭石南&program=flash&language=简体中文-中国"
+		type="application/x-shockwave-flash"
+		pluginspage="http://www.macromedia.com/go/getflashplayer"
+	/>
+</object>
+
+</body>
+</html>
+<script src="./jquery.js"></script>
+<script>
+// document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="624" height="351" style="margin-top: -10px;margin-left: -8px;" id="FLVPlayer1">'+
+// '<param name="movie" value="http://www.w3school.com.cn/i/movie.swf" />'+
+// '<param name="quality" value="high" />'+
+// '<param name="wmode" value="opaque" />'+
+// '<param name="scale" value="noscale" />'+
+// '<param name="salign" value="lt" />'+
+// '<param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=http://www.w3school.com.cn/i/movie.mp4&amp;streamName=http://www.w3school.com.cn/i/movie.ogg&amp;autoPlay=false&amp;autoRewind=false" />'+
+// '<param name="swfversion" value="8,0,0,0" />'+
+// '<!-- 此 param 标签提示使用 Flash Player 6.0 r65 和更高版本的用户下载最新版本的 Flash Player。如果您不想让用户看到该提示，请将其删除。 -->'+
+// '<param name="expressinstall" value="http://www.w3school.com.cn/i/movie.swf" />'+
+// '</object>');
+
+</script>
